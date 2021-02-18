@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    grid-template-rows: repeat(3, 300px);
+    grid-template-areas:
+            "box1 box2 box3 box4"
+            "box5 box2 box6 box7"
+            "box8 box9 box10 box7";
+}
+
+.box1{
+    grid-area: box1;
+    background-image: url("daisy.jpg");
+    background-size: cover;
+}
+.box1 .box1-text{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif
+    color: mediumpurple;
+}
+.box2{
+    grid-area: box2;
+    background-color: darkred;
+}
+.box3{
+    grid-area: box3;
+    background-color: mediumpurple;
+    /*justify-self: end;*/
+    /*display: flex;*/
+}
+.box4{
+    grid-area: box4;
+    background-color: saddlebrown;
+}
+.box5{
+    grid-area: box5;
+    background-color: deepskyblue;
+}
+.box6{
+    grid-area: box6;
+    background-color: greenyellow;
+}
+.box7{
+    grid-area: box7;
+    background-color: deeppink;
+}
+.box8{
+    grid-area: box8;
+    background-color: indianred;
+}
+.box9{
+    grid-area: box9;
+    background-color: lime;
+}
+.box10 {
+     grid-area: box10;
+    background-color: darkslategrey;
+ }
+

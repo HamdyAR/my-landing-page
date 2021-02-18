@@ -1,0 +1,195 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightskyblue;
+}
+
+.header-box{
+    width: 100%;
+    height: 50px;
+    /*background-color: mediumpurple;*/
+    display: flex;
+}
+.header-box .child-1{
+    width: 20%;
+    height: 100%;
+    /*background-color: salmon;*/
+    text-align: center;
+    display: flex;
+    padding-left: 50px;
+}
+.header-box .child-1 img{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+
+}
+.header-box .child-1 .child-1-text{
+    font-family: 'Francois One', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.header-box .child-2{
+    width: 60%;
+    height: 100%;
+    /*background-color: deepskyblue;*/
+    display: flex;
+}
+
+.header-box .child-2 .box-1{
+    width: 50%;
+    height: 100%;
+    /*background-color: indigo;*/
+    text-align: center;
+    font-family: 'Francois One', sans-serif;
+    font-size: 10px;
+    padding-top: 10px;
+}.header-box .child-2 .box-2{
+    width: 15%;
+    height: 100%;
+    /*background-color: darkblue;*/
+     text-align: center;
+     font-family: 'Francois One', sans-serif;
+    font-size: 10px;
+     padding-top: 10px;
+}.header-box .child-2 .box-3{
+    width: 15%;
+    height: 100%;
+    /*background-color: greenyellow;*/
+      text-align: center;
+      font-family: 'Francois One', sans-serif;
+      font-size: 10px;
+      padding-top: 10px;
+}.header-box .child-2 .box-4{
+    width: 15%;
+    height: 100%;
+    /*background-color: saddlebrown;*/
+       text-align: center;
+       font-family: 'Francois One', sans-serif;
+       font-size: 10px;
+       padding-top: 10px;
+}.header-box .child-2 .box-5{
+    width: 15%;
+    height: 100%;
+    /*background-color: purple;*/
+        text-align: center;
+        font-family: 'Francois One', sans-serif;
+        font-size: 10px;
+        padding-top: 10px;
+}
+
+
+.header-box .child-3{
+    width: 20%;
+    height: 100%;
+    /*background-color: deeppink;*/
+}
+.header-box .child-3 button{
+    background: none;
+    border: 3px solid deepskyblue;
+    color: deepskyblue;
+    font-size: 10px;
+    padding: 2px 15px 2px 15px;
+    font-family: 'Francois One', sans-serif;
+    margin-bottom: 30px;
+}
+.header-box .child-3 .child-3-button{
+    text-align: center;
+}
+.main{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.main .main-text1{
+    font-size: 10px;
+    font-family: 'Playfair Display', serif;
+    color: dimgrey;
+}
+
+.main .main-text2{
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Francois One', sans-serif;
+    word-spacing: 2px;
+}
+
+.main .main-text3{
+    font-size: 14px;
+    font-family: 'Francois One', sans-serif;
+}
+.main .main-form{
+    display: flex;
+    justify-content: center;
+}
+.main .main-form .main-form-child1{
+    margin-right: 5px;
+}
+.main .main-form .main-form-child1 input{
+    padding: 10px 0px 10px 15px;
+    font-size: 10px;
+    font-family: 'Francois One', sans-serif;
+    text-align: left;
+}
+.main .main-form .main-form-child2 button{
+    padding: 10px 30px 10px 30px;
+    font-size: 12px;
+    font-family: 'Francois One', sans-serif;
+    background-color: orangered;
+    color: white;
+    border-style: none;
+}
+.main .main-bottom-text{
+    font-size: 12px;
+    font-weight: bold;
+    color: dimgrey;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    /*background-color: deeppink;*/
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer .footer-child1{
+    height: 100%;
+    width: 20%;
+    /*background-color: yellow;*/
+    display: flex;
+}
+
+.footer .footer-child1 .footer-child1-container{
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.footer .footer-child1 .footer-child1-container-2 .footer-text-1{
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Francois One', sans-serif;
+}
+.footer .footer-child1 .footer-child1-container-2 .footer-text-2{
+    font-size: 12px;
+    font-family: 'Francois One', sans-serif;
+    color: dimgrey;
+}
+.footer .footer-child1 img{
+    width: 20px;
+    height: 20px;
+}
+.footer .footer-child2{
+    height: 100%;
+    width: 20%;
+    background-color: darkgreen;
+}
+
+.footer .footer-child3{
+    height: 100%;
+    width: 20%;
+    background-color: plum;
+}
